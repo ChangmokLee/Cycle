@@ -1,6 +1,6 @@
-# Greed
+# Cycle
 
-Greed is a game in which the player seeks to gather as many falling gems as possible. The game continues as long as the player wants more!
+Cycle is a game where the players try to cut each other off using cycles that leave a trail behind them.
 
 ## Getting Started
 Make sure you have dotnet 6.0 or newer installed on your machine. Open 
@@ -21,12 +21,15 @@ arrow or "start debugging" button.
 
 ## Description
 
-Gems (*) and rocks (o) randomly appear and fall from the top of the screen.
-The player (#) can move left or right along the bottom of the screen.
-If the player touches a gem they earn a point.
-If the player touches a rock they lose a point.
-Gems and rocks are removed when the player touches them.
-The game continues until the player closes the window.
+Players can move up, down, left and right.
+Player one moves using the W, S, A and D keys.
+Player two moves using the I, K, J and L keys.
+Each player's trail grows as they move.
+Players try to maneuver so the opponent collides with their trail.
+If a player collides with their opponent's trail,
+A "game over" message is displayed in the middle of the screen.
+The cycles turn white.
+Players keep moving and turning but don't run into each other.
 
 ## Authors
 
